@@ -1,0 +1,21 @@
+
+[Compatibility]
+
+	[Compatibility.evilcraft]
+		enable_compat_evilcraft = true
+
+	[Compatibility.tconstruct]
+		enable_compat_tconstruct = true
+
+	[Compatibility.toughasnails]
+		enable_compat_toughasnails = true
+		#Limit thirst for vampires
+		disableThirst = true
+
+	[Compatibility.bloodmagic]
+		enable_compat_bloodmagic = true
+
+	[Compatibility.vampirism]
+		disable_integrations_version_check = false
+		enable_compat_vampirism = true
+

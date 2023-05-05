@@ -1,0 +1,286 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1103792632733368452
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Escondendo Baús dentro da Floresta"
+	#The second line of text under the app name
+	state = "Procurando a Floresta"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["512x512"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["512x512"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[init.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[init.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Venha Explorar as Florestas!"
+	#The second line of text under the app name
+	state = "IP: sky.cubetnetwork.com.br"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["512x512"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["512x512"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[main_menu.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[main_menu.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Venha desbravar novos mundos!"
+	#The second line of text under the app name
+	state = "IP: florest.cubenetwork.com.br"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["512x512"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["512x512"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[server_list.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[server_list.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Venha desbravar novos mundos!"
+	#The second line of text under the app name
+	state = "IP: florest.cubenetwork.com.br"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["512x512"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["512x512"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods%  Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[realms_list.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[realms_list.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Venha desbravar novos mundos!"
+	#The second line of text under the app name
+	state = "IP: florest.cubenetwork.com.br"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods%  Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[join_game.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[join_game.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Venha desbravar novos mundos!"
+	#The second line of text under the app name
+	state = "IP: florest.cubenetwork.com.br"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods%  Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[single_player.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[single_player.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Venha desbravar novos mundos!"
+	#The second line of text under the app name
+	state = "IP: florest.cubenetwork.com.br"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods%  Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[multi_player.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[multi_player.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Venha desbravar novos mundos!"
+	#The second line of text under the app name
+	state = "IP: florest.cubenetwork.com.br"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods%  Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[realms.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[realms.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[generic]
+	#The first line of text under the app name
+	description = "Venha desbravar novos mundos!"
+	#The second line of text under the app name
+	state = "IP: florest.cubenetwork.com.br"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Cube Florest 1.16.5"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods%  Florestas Geradas"
+	#The buttons to display on Discord 
+
+	[[generic.buttons]]
+		label = "Loja"
+		url = "https://cubenetwork.com.br"
+
+	[[generic.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/Zk74V979fC"
+
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = false
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+

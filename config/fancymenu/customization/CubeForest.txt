@@ -1,0 +1,229 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menuforest/background1.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-left
+  x = 60
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = top-left
+  x = 5
+  action = movebutton
+  y = 490
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menuforest/button4.png
+  backgroundnormal = menuforest/button4.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 29
+  action = movebutton
+  y = 490
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menuforest/button4.png
+  backgroundnormal = menuforest/button4.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = menuforest/button4.png
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 05453e7b-84fa-48cd-913a-8a99a5cfa52f1682121720263
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 3c35a2a2-4c1f-4819-baf9-92df2616f5711682121720270
+  y = 472
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 2db5c20c-677a-4f3d-9685-b9c7cdf5f24d1682121720270
+  y = 494
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = a7355035-4693-4135-9606-aa964c7d32bc1682121720271
+  y = 228
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = d32f437d-ade5-441b-b66d-f0c3a5037a061682121720271
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-left
+  splash_color = #1375d6
+  hidden = true
+  x = 794
+  width = 60
+  splash_rotation = 0
+  action = deep_customization_element:title_screen_splash
+  actionid = 89a59822-ab4c-4fcf-93ba-37ed456f882a1682121720271
+  y = 128
+  splash_file_path = menuforest/cubenetwork.txt
+  height = 30
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = menuforest/button3.png
+  label = Site
+  loopbackgroundanimations = true
+  x = -960
+  width = 100
+  actionid = e56263c3-7405-4e55-8fba-f0c9603504781682130791382
+  action = addbutton
+  y = -49
+  backgroundnormal = menuforest/button4.png
+  value = https://cubenetwork.com.br/
+  height = 20
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = menuforest/button3.png
+  label = Discord
+  loopbackgroundanimations = true
+  x = -960
+  width = 100
+  actionid = 62146829-8e6f-4adc-857c-92c7f0de8a561682130949076
+  action = addbutton
+  y = -24
+  backgroundnormal = menuforest/button4.png
+  value = https://discord.cubenetwork.com.br/
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = menuforest/button3.png
+  backgroundnormal = menuforest/button4.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menuforest/button3.png
+  backgroundnormal = menuforest/button4.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menuforest/button3.png
+  backgroundnormal = menuforest/button4.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menuforest/button3.png
+  backgroundnormal = menuforest/button4.png
+}
+
